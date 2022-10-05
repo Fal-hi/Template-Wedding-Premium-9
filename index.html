@@ -96,19 +96,22 @@
       }
     }
     @media (max-width: 575.98px) {
+      .header {
+        height: 100%;
+      }
       .header .mempelai {
-        height: 100vh;
+        height: 100%;
       }
       .header .mempelai .row {
         flex-direction: column-reverse;
       }
       .header .mempelai .phone .nama {
-        margin-top: 2rem;
+        margin: 3rem auto;
         color: var(--warna1);
         text-align: center;
       }
       .header .mempelai .nama h1 {
-        font-size: calc(3rem - 0.5rem);
+        font-size: 2rem;
       }
 
       .header .mempelai .nama p {
@@ -118,9 +121,8 @@
         background-color: transparent;
         border: 0;
         margin-top: 4rem;
-        max-width: 20rem;
-        width: 20rem;
-        height: 20rem;
+        max-width: 17rem;
+        height: 17rem;
         overflow: hidden;
         border-radius: var(--lengkungO);
         -webkit-border-radius: var(--lengkungO);
@@ -148,17 +150,12 @@
         background-color: var(--warna3);
         color: var(--warna2);
         padding: 0.5rem 1.5rem;
-        margin-top: 2rem;
         font-size: 1rem;
         font-weight: bold;
         border-radius: 50px;
       }
       .header .mempelai img.bunga1 {
-        max-width: 25%;
-        width: calc(25% - 1vw);
-        top: auto;
-        bottom: 0;
-        transform: rotateX(180deg);
+        display: none;
       }
     }
   </style>
