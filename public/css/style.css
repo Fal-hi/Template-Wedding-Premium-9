@@ -812,7 +812,7 @@ ul.navbar-bawah li a:hover {
     display: none;
   }
   .header .mempelai .nama .np {
-    margin-top: calc(20vh - 1vh);
+    margin-top: calc(10vh - 1vh);
   }
   .header .mempelai .nama p {
     z-index: 2;
@@ -823,7 +823,7 @@ ul.navbar-bawah li a:hover {
     height: 50vh;
   }
   .header .mempelai .foto .card {
-    margin-top: 16rem;
+    margin-top: 2rem;
     max-width: 20rem;
     width: 20rem;
     height: 20rem;
@@ -888,7 +888,8 @@ ul.navbar-bawah li a:hover {
     grid-area: g6;
   }
   .gallery .isi-gallery .card img {
-    height: 25vh;
+    height: 30vh;
+    width: 100%;
   }
   .gallery img.bunga4 {
     margin-top: -9rem;
