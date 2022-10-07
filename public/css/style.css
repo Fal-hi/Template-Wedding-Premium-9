@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nuosu SIL', serif;
+  font-family: "Nuosu SIL", serif;
 }
 
 :root {
@@ -305,6 +305,12 @@ ul.navbar-bawah li a:hover {
 .gallery .isi-gallery .baris2 {
   display: grid;
   grid-template-columns: 25% auto auto;
+  margin: auto 1rem;
+}
+
+.gallery .isi-gallery .baris3 {
+  display: grid;
+  grid-template-columns: auto auto 25%;
   margin: auto 1rem;
 }
 
@@ -869,6 +875,11 @@ ul.navbar-bawah li a:hover {
       "g4 g4 g5 g5"
       "g6 g6 g6 g6";
   }
+  .gallery .isi-gallery .baris3 {
+    grid-template-areas:
+      "g7 g7 g7 g7"
+      "g8 g8 g8 g8";
+  }
   .gallery .isi-gallery .gallery1 {
     grid-area: g1;
   }
@@ -886,6 +897,12 @@ ul.navbar-bawah li a:hover {
   }
   .gallery .isi-gallery .gallery6 {
     grid-area: g6;
+  }
+  .gallery .isi-gallery .gallery7 {
+    grid-area: g7;
+  }
+  .gallery .isi-gallery .gallery8 {
+    grid-area: g8;
   }
   .gallery .isi-gallery .card img {
     height: 30vh;
